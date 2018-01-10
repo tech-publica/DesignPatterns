@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Hardware
+namespace DesignPatterns.Creational.Builder.Hardware
 {
-    public class Desktop
+    public class GameConsole
     {
         public HardwareComponents components { get; set; } = new HardwareComponents();
     }

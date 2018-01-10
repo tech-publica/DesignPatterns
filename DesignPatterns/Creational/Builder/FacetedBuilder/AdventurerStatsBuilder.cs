@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace DesignPatterns.Builder.Adventurer
+namespace DesignPatterns.Creational.Builder.FacetedBuilder
 {
     public interface AdventurerStatsBuilder : AdventurerBuilder
     {

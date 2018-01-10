@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Builder.Adventurer
+﻿namespace DesignPatterns.Creational.Builder.FacetedBuilder
 {
     public class Stats
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Builder.Adventurer
+namespace DesignPatterns.Creational.Builder.FacetedBuilder
 {
     public interface AdventurerBuilder
     {

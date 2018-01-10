@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Hardware
+namespace DesignPatterns.Creational.Builder.Hardware
 {
     public class HardwareComponents
     {

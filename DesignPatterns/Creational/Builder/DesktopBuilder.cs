@@ -1,36 +1,37 @@
-﻿using DesignPatterns.Hardware;
+﻿
+using DesignPatterns.Creational.Builder.Hardware;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Builder
+namespace DesignPatterns.Creational.Builder
 {
-    public class GameConsoleBuilder : HardwareBuilder
+    public class DesktopBuilder : HardwareBuilder
     {
 
-        private GameConsole console = new GameConsole();
+        private Desktop desktop = new Desktop();
 
         public HardwareBuilder AddHD(int giga)
         {
-            console.components.HD = giga;
+            desktop.components.HD = giga;
             return this;
         }
 
         public HardwareBuilder AddRam(int giga)
         {
-            console.components.RAM = giga;
+            desktop.components.RAM = giga;
             return this;
         }
 
         public HardwareBuilder AddSSD(int giga)
         {
-            console.components.SSD = giga;
+            desktop.components.SSD = giga;
             return this;
         }
 
-        public GameConsole Build()
+        public Desktop Build()
         {
-            return console;
+            return desktop;
         }
     }
 }

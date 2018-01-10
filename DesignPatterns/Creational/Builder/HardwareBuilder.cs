@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.Builder
+namespace DesignPatterns.Creational.Builder
 {
     public interface HardwareBuilder
     {

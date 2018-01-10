@@ -1,8 +1,8 @@
-using DesignPatterns.FactoryMethod;
+using DesignPatterns.Creational.FactoryMethod;
 using System;
 using Xunit;
 
-namespace DesignPatternsExamplesTest
+namespace DesignPatternsExamplesTest.Creational.FactoryMethod
 {
     public class FoodStoreTest
     {

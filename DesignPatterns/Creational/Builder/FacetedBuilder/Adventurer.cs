@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Text;
 
-namespace DesignPatterns.Builder.Adventurer
+namespace DesignPatterns.Creational.Builder.FacetedBuilder
 {
     public enum Sex { male, female, undecided}
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatterns.FactoryMethod
+namespace DesignPatterns.Creational.FactoryMethod
 {
     public class ArancinoPalermitano : Arancino
     {
