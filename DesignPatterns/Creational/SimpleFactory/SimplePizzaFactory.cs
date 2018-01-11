@@ -9,6 +9,9 @@ namespace DesignPatterns.Creational.SimpleFactory
 
     public class SimplePizzaFactory
     {
+        //encapsulate what changes
+        //single responsibility principle
+
         public static Pizza CreatePizza(PizzaType type)
         {
             // not open closed principle!
