@@ -17,4 +17,7 @@
     <ProjectReference Include="..\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Creational\Prototype\" />
+  </ItemGroup>
 </Project>
