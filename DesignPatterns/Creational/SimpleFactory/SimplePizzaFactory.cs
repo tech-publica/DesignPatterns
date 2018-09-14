@@ -14,9 +14,7 @@ namespace DesignPatterns.Creational.SimpleFactory
 
         public static Pizza CreatePizza(PizzaType type)
         {
-            // not open closed principle!
-            // open for extensions
-            // closed for modification
+            // not really open closed principle!
             switch(type)
             {
                 case PizzaType.margherita:
